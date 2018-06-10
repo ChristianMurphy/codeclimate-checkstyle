@@ -1,11 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    mini_portile2 (2.1.0)
-    nokogiri (1.6.8)
-      mini_portile2 (~> 2.1.0)
-      pkg-config (~> 1.1.7)
-    pkg-config (1.1.7)
+    mini_portile2 (2.3.0)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
     posix-spawn (0.3.11)
     rake (11.2.2)
 
@@ -13,9 +11,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nokogiri
+  nokogiri (>= 1.8.2)
   posix-spawn
   rake
 
 BUNDLED WITH
-   1.11.2
+   1.16.1
